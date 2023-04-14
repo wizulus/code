@@ -1,3 +1,8 @@
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange?style=flat-square&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/wizulus)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wizulus/code)
+[![Discord](https://img.shields.io/discord/1010700383632502816?label=Discord&logo=Discord&style=flat-square)](https://discord.wizul.us)
+[![Twitter Follow](https://img.shields.io/twitter/follow/wizulus?style=social)
+](https://twitter.com/wizulus)
 # @wizulus/code
 
 A JavaScript library for encoding and decoding Super Mario Maker 2 codes.
@@ -10,7 +15,7 @@ You can install this library using npm:
 npm install @wizulus/code
 ```
 
-## ⚙️ Usage
+## Usage
 
 ```js
 import {
@@ -47,7 +52,7 @@ switch (meta) {
 }
 ```
 
-## 😳 What?!
+## What?!
 
 Super Mario Maker 2 codes are 9 character, base-30 strings using the following characters:
 
@@ -78,7 +83,7 @@ In the above example, you can concatenate `META_A` (`1000`) and `META_B` (`11000
 
 You can also combine `VALUE_A` (`0`), `VALUE_B` (`11111000111010101010100001`), and `VALUE_C` (`101000`) to get `0-11111000111010101010100001-101000` which is `4176128104` in decimal, the numerical value for this record.
 
-## 🤔 Why?
+## Why?
 
 The combined 12 bits of `META_A` and `META_B` are used to determine the type of code. All course codes in SMM2 share the same meta value, as do all maker codes.
 
@@ -86,7 +91,7 @@ By changing the meta value, Open Course World can issue course and maker codes t
 
 It also allows you to determine if a given code is from Nintendo or Open Course World.
 
-## 🤓 How?
+## How?
 
 You can use the above usage example to parse the code and compare its meta value to known constants, or you can use a simple helper function:
 
@@ -106,7 +111,7 @@ const type = getCodeType('NGD-SJG-21H')
 - `'NSO_MAKER'`: Nintendo Switch Online maker code
 - `'UNKNOWN'`: Unknown code type
 
-# 📃 API Reference
+# API Reference
 
 This module provides functionality to work with Nintendo Switch Online Course Codes.
 
@@ -258,7 +263,7 @@ The meta value for an NSO maker code
 
 ---
 
-## 📝 License
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 

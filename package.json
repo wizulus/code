@@ -1,11 +1,15 @@
 {
   "name": "@wizulus/code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript library for encoding and decoding Super Mario Maker 2 codes.",
   "main": "code.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wizulus Redikulus <wizulus@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wizulus/code.git"
+  },
   "license": "MIT"
 }
