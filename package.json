@@ -1,0 +1,11 @@
+{
+  "name": "@wizulus/code",
+  "version": "1.0.0",
+  "description": "A JavaScript library for encoding and decoding Super Mario Maker 2 codes.",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wizulus Redikulus <wizulus@gmail.com>",
+  "license": "MIT"
+}
