@@ -1,4 +1,4 @@
-const { default: Code, isNSOCourseCode, isNSOMakerCode, isOCWCourseCode, isOCWMakerCode, getCodeType } = require('./code.js')
+const { Code, isNSOCourseCode, isNSOMakerCode, isOCWCourseCode, isOCWMakerCode, getCodeType } = require('./code.js')
 
 const OCW_MAKERS = [
     '2JD-H08-CC8',

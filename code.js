@@ -320,7 +320,7 @@ function getCodeType(code) {
     }
 }
 
-exports.default = Code
+exports.Code = Code
 exports.OCW_COURSE_META = OCW_COURSE_META
 exports.OCW_MAKER_META = OCW_MAKER_META
 exports.NSO_COURSE_META = NSO_COURSE_META

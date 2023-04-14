@@ -13,7 +13,8 @@ npm install @wizulus/code
 ## ⚙️ Usage
 
 ```js
-import Code, {
+import {
+    Code,
     OCW_COURSE, // 808
     OCW_MAKER,  // 1337
     NSO_COURSE, // 2117
